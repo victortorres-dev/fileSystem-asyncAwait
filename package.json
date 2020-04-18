@@ -1,0 +1,36 @@
+{
+  "name": "filesystem-asyncawait",
+  "version": "0.0.1",
+  "description": "Implementation of fileSystem methods with async Await",
+  "main": "index.js",
+  "scripts": {
+    "appendFile": "node src/files/append-file.js",
+    "copyFile": "node src/files/copy-file.js",
+    "readFile": "node src/files/read-file.js",
+    "unlinkFile": "node src/files/unlink-file.js",
+    "writeFile": "node src/files/write-file.js",
+    "mkDirectory": "node src/directories/mk-dir.js",
+    "readDirectory": "node src/directories/read-dir.js",
+    "rmDirectory": "node src/directories/rm-dir.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victortorres-dev/fileSystem-asyncAwait.git"
+  },
+  "keywords": [
+    "fileSystem",
+    "async",
+    "await",
+    "promises",
+    "callbacks"
+  ],
+  "author": "victortorres-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victortorres-dev/fileSystem-asyncAwait/issues"
+  },
+  "homepage": "https://github.com/victortorres-dev/fileSystem-asyncAwait#readme",
+  "devDependencies": {
+    "standard": "^14.3.3"
+  }
+}
